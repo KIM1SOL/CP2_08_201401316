@@ -12,9 +12,9 @@ public class PalindromeMain {
 		System.out.print("글자를 입력하세요:  ");
 		String str = scanner.next();
 		
-		if(pal.pal(str)) System.out.println("hello");
+		if(pal.pal(str)) System.out.println(str+"은 회문입니다.");
 		else 
-			System.out.println("no");
+			System.out.println(str+"회문이 아닙니다. ");
 	}
 
 }

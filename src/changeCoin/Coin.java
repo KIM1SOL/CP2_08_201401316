@@ -9,10 +9,12 @@ public class Coin {
 	public int calCoinCase(int money, int coin) {
 		return 0;
 	}
-
+	public int[] getCoinType() {
+		return coinType;
+	}
+	
 	public int minimalCoin(int money, int coin) {
 		if (coin == 0) {
-			System.out.println(money);
 			return money / coinType[coin];
 		}
 		if (money >= coinType[coin]) {		
